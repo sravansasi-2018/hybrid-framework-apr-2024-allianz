@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-02T00:09:47 PDT" name="Default suite" finished-at="2024-04-02T00:09:47 PDT" duration-ms="217">
+  <suite started-at="2024-04-03T23:38:36 PDT" name="Default suite" finished-at="2024-04-03T23:39:04 PDT" duration-ms="28677">
     <groups>
     </groups>
-    <test started-at="2024-04-02T00:09:47 PDT" name="Default test" finished-at="2024-04-02T00:09:47 PDT" duration-ms="217">
+    <test started-at="2024-04-03T23:38:36 PDT" name="Default test" finished-at="2024-04-03T23:39:04 PDT" duration-ms="28677">
       <class name="com.allianz.test.LoginUITest">
-        <test-method signature="applicationDescription()[pri:0, instance:com.allianz.test.LoginUITest@3cebbb30]" started-at="2024-04-02T00:09:47 PDT" name="applicationDescription" finished-at="2024-04-02T00:09:47 PDT" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationDescription -->
-        <test-method signature="titleTest()[pri:0, instance:com.allianz.test.LoginUITest@3cebbb30]" started-at="2024-04-02T00:09:47 PDT" name="titleTest" finished-at="2024-04-02T00:09:47 PDT" duration-ms="16" status="PASS">
+        <test-method signature="titleTest()[pri:1, instance:com.allianz.test.LoginUITest@27462a88]" started-at="2024-04-03T23:38:36 PDT" name="titleTest" finished-at="2024-04-03T23:38:48 PDT" duration-ms="12509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
+        <test-method signature="applicationDescription()[pri:2, instance:com.allianz.test.LoginUITest@27462a88]" started-at="2024-04-03T23:38:48 PDT" name="applicationDescription" finished-at="2024-04-03T23:39:04 PDT" duration-ms="16086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationDescription -->
       </class> <!-- com.allianz.test.LoginUITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

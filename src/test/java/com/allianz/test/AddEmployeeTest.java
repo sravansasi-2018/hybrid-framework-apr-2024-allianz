@@ -13,7 +13,7 @@ public class AddEmployeeTest extends AutomationWrapper {
 	@Test
 	public void uploadInvalidDisplayPictureTest()
 	{
-		File file = new File("src/test/resources/files/token.txt");
+		File file = new File("src/test/resources/files/xpath.txt");
 		String path =	file.getAbsolutePath();
 		
 		driver.findElement(By.name("username")).sendKeys("Admin");

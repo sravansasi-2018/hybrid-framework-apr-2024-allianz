@@ -10,7 +10,7 @@ import com.allianz.base.AutomationWrapper;
 
 public class AddEmployeeTest extends AutomationWrapper {
 	
-	@Test
+	@Test(groups = {"addemployee","smoke"})
 	public void uploadInvalidDisplayPictureTest()
 	{
 		File file = new File("src/test/resources/files/xpath.txt");
@@ -30,5 +30,9 @@ public class AddEmployeeTest extends AutomationWrapper {
 		String actualError = driver.findElement(By.xpath("//span[contains(normalize-space(),'File type')]")).getText();
 		Assert.assertTrue(actualError.contains("File type not allowed")); //expect true
 	}
-
+	
+	public void addValidEmployeeTest()
+	{
+		
+	}
 }

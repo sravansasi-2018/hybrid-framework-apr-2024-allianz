@@ -8,7 +8,7 @@ import com.allianz.base.AutomationWrapper;
 
 public class LoginUITest extends AutomationWrapper {
 
-	@Test(priority = 1)
+	@Test(priority = 1,groups = {"ui","smoke"})
 	public void titleTest() {
 		// Get the title of the page
 		String title = driver.getTitle();
@@ -22,7 +22,7 @@ public class LoginUITest extends AutomationWrapper {
 		driver.quit();
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2,groups = {"ui"})
 	public void applicationDescription() {
 		String actualVersion = driver.findElement(By.xpath("//p[text()='OrangeHRM OS 5.6.1']")).getText();
 		System.out.println("Page Title: " + actualVersion);

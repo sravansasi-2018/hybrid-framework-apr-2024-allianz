@@ -1,75 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-30T06:28:24 PDT" name="Orange HRM Suite" finished-at="2024-04-30T06:28:56 PDT" duration-ms="31890">
+  <suite started-at="2024-05-14T02:31:14 PDT" name="Orange HRM Suite" finished-at="2024-05-14T02:31:42 PDT" duration-ms="27140">
     <groups>
       <group name="ui">
-        <method signature="LoginUITest.titleTest()[pri:1, instance:com.allianz.test.LoginUITest@942a29c]" name="titleTest" class="com.allianz.test.LoginUITest"/>
-        <method signature="LoginUITest.applicationDescription()[pri:2, instance:com.allianz.test.LoginUITest@942a29c]" name="applicationDescription" class="com.allianz.test.LoginUITest"/>
-        <method signature="LoginUITest.titleTest()[pri:1, instance:com.allianz.test.LoginUITest@17f9d882]" name="titleTest" class="com.allianz.test.LoginUITest"/>
-        <method signature="LoginUITest.applicationDescription()[pri:2, instance:com.allianz.test.LoginUITest@17f9d882]" name="applicationDescription" class="com.allianz.test.LoginUITest"/>
+        <method signature="LoginUITest.titleTest()[pri:1, instance:com.allianz.test.LoginUITest@7d0b7e3c]" name="titleTest" class="com.allianz.test.LoginUITest"/>
+        <method signature="LoginUITest.applicationDescription()[pri:2, instance:com.allianz.test.LoginUITest@7d0b7e3c]" name="applicationDescription" class="com.allianz.test.LoginUITest"/>
       </group> <!-- ui -->
       <group name="smoke">
-        <method signature="LoginUITest.titleTest()[pri:1, instance:com.allianz.test.LoginUITest@942a29c]" name="titleTest" class="com.allianz.test.LoginUITest"/>
-        <method signature="LoginUITest.titleTest()[pri:1, instance:com.allianz.test.LoginUITest@17f9d882]" name="titleTest" class="com.allianz.test.LoginUITest"/>
+        <method signature="LoginUITest.titleTest()[pri:1, instance:com.allianz.test.LoginUITest@7d0b7e3c]" name="titleTest" class="com.allianz.test.LoginUITest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-04-30T06:28:24 PDT" name="UI-Chrome Test" finished-at="2024-04-30T06:28:47 PDT" duration-ms="22899">
+    <test started-at="2024-05-14T02:31:14 PDT" name="UI Test" finished-at="2024-05-14T02:31:42 PDT" duration-ms="27140">
       <class name="com.allianz.test.LoginUITest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.allianz.test.LoginUITest@17f9d882]" started-at="2024-04-30T06:28:24 PDT" name="setup" finished-at="2024-04-30T06:28:36 PDT" duration-ms="11644" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.allianz.test.LoginUITest@7d0b7e3c]" started-at="2024-05-14T02:31:14 PDT" name="init" finished-at="2024-05-14T02:31:14 PDT" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.allianz.test.LoginUITest@7d0b7e3c]" started-at="2024-05-14T02:31:14 PDT" name="setup" finished-at="2024-05-14T02:31:26 PDT" duration-ms="11818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.allianz.test.LoginUITest.titleTest()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="titleTest()[pri:1, instance:com.allianz.test.LoginUITest@17f9d882]" started-at="2024-04-30T06:28:36 PDT" name="titleTest" finished-at="2024-04-30T06:28:36 PDT" duration-ms="201" status="PASS">
+        <test-method signature="titleTest()[pri:1, instance:com.allianz.test.LoginUITest@7d0b7e3c]" started-at="2024-05-14T02:31:26 PDT" name="titleTest" finished-at="2024-05-14T02:31:27 PDT" duration-ms="554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.allianz.test.LoginUITest@17f9d882]" started-at="2024-04-30T06:28:36 PDT" name="teardown" finished-at="2024-04-30T06:28:36 PDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.allianz.test.LoginUITest@7d0b7e3c]" started-at="2024-05-14T02:31:27 PDT" name="teardown" finished-at="2024-05-14T02:31:27 PDT" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titleTest status=SUCCESS method=LoginUITest.titleTest()[pri:1, instance:com.allianz.test.LoginUITest@7d0b7e3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.allianz.test.LoginUITest@17f9d882]" started-at="2024-04-30T06:28:36 PDT" name="setup" finished-at="2024-04-30T06:28:46 PDT" duration-ms="10283" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.allianz.test.LoginUITest@7d0b7e3c]" started-at="2024-05-14T02:31:27 PDT" name="setup" finished-at="2024-05-14T02:31:41 PDT" duration-ms="13641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.allianz.test.LoginUITest.applicationDescription()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="applicationDescription()[pri:2, instance:com.allianz.test.LoginUITest@17f9d882]" started-at="2024-04-30T06:28:46 PDT" name="applicationDescription" finished-at="2024-04-30T06:28:47 PDT" duration-ms="685" status="PASS">
+        <test-method signature="applicationDescription()[pri:2, instance:com.allianz.test.LoginUITest@7d0b7e3c]" started-at="2024-05-14T02:31:41 PDT" name="applicationDescription" finished-at="2024-05-14T02:31:42 PDT" duration-ms="1022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationDescription -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.allianz.test.LoginUITest@17f9d882]" started-at="2024-04-30T06:28:47 PDT" name="teardown" finished-at="2024-04-30T06:28:47 PDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.allianz.test.LoginUITest@7d0b7e3c]" started-at="2024-05-14T02:31:42 PDT" name="teardown" finished-at="2024-05-14T02:31:42 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=applicationDescription status=SUCCESS method=LoginUITest.applicationDescription()[pri:2, instance:com.allianz.test.LoginUITest@7d0b7e3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.allianz.test.LoginUITest@7d0b7e3c]" started-at="2024-05-14T02:31:42 PDT" name="end" finished-at="2024-05-14T02:31:42 PDT" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
       </class> <!-- com.allianz.test.LoginUITest -->
-    </test> <!-- UI-Chrome Test -->
-    <test started-at="2024-04-30T06:28:24 PDT" name="UI-Edge Test" finished-at="2024-04-30T06:28:56 PDT" duration-ms="31890">
-      <class name="com.allianz.test.LoginUITest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.allianz.test.LoginUITest@942a29c]" started-at="2024-04-30T06:28:24 PDT" name="setup" finished-at="2024-04-30T06:28:27 PDT" duration-ms="3395" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="titleTest()[pri:1, instance:com.allianz.test.LoginUITest@942a29c]" started-at="2024-04-30T06:28:27 PDT" name="titleTest" finished-at="2024-04-30T06:28:42 PDT" duration-ms="14760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.allianz.test.LoginUITest@942a29c]" started-at="2024-04-30T06:28:42 PDT" name="teardown" finished-at="2024-04-30T06:28:42 PDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.allianz.test.LoginUITest@942a29c]" started-at="2024-04-30T06:28:42 PDT" name="setup" finished-at="2024-04-30T06:28:45 PDT" duration-ms="2874" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="applicationDescription()[pri:2, instance:com.allianz.test.LoginUITest@942a29c]" started-at="2024-04-30T06:28:45 PDT" name="applicationDescription" finished-at="2024-04-30T06:28:56 PDT" duration-ms="10768" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationDescription -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.allianz.test.LoginUITest@942a29c]" started-at="2024-04-30T06:28:56 PDT" name="teardown" finished-at="2024-04-30T06:28:56 PDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.allianz.test.LoginUITest -->
-    </test> <!-- UI-Edge Test -->
+    </test> <!-- UI Test -->
   </suite> <!-- Orange HRM Suite -->
 </testng-results>

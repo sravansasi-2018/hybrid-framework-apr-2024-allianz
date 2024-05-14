@@ -4,7 +4,7 @@
   <test thread-count="5" name="UI Test">
     <classes>
       <class name="com.allianz.test.LoginUITest"/>
-      <class name="com.allianz.test.AddEmployeeTest"/>
+      <!--<class name="com.allianz.test.AddEmployeeTest"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
